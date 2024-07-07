@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario de Datos Personales</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<head>
+  
+</head>
+<body>
+<section id="contactos" class="bg-secondary">
+
+
+  <h1>Formulario de Datos Personales</h1>
+
+  <form>
+    <label for="nombre">Nombre:</label>
+    <input title="Se necesita un nombre" type="text" name="nombre" required=""/> 
+    <label for="apellido">Apellido:</label>
+    <input title="Se necesita un apellido" type="text" name="apellido" required=""/>
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email">
+    <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+    <input type="date" id="fecha-nacimiento" name="fecha-nacimiento">
+    <label for="pais-residencia">País de Residencia:</label>
+    <select class="pais-control mt1" id="pais-residencia">
+      <option value="1">Argentina</option>
+      <option value="2">Brasil</option>
+      <option value="3">Chile</option>
+      <option value="4">Uruguay</option>
+      <option value="5">Bolivia</option>
+      <option value="6">Peru</option>
+      <option value="7">Venezuela</option>
+      <option value="8">Colombia</option>
+      <option value="9">Ecuador</option>
+      
+      
+    </select>
+    <h1><input type="submit" value="Enviar"></h1>
+  </form> 
+
+<div class="btn-field">
+<h1><button id="high-contrast-button">Estilo 1</button></h1>
+<h1><button id="high-Contrast-button">Estilo de Alto Contraste</button></h1>
+</div>
+
+</section>
+<script src="formulario.js"></script>
+</body>
+</html>
